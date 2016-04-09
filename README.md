@@ -205,7 +205,7 @@
 	/dynos/{dyno_id}
 
 ---
-##响应
+##三、响应
 **总是提供资源(UU)ID**
 
 为每个资源提供默认的ID属性。除非有特殊理由，总是使用UUID。不要用那些在服务的实例间或资源间不全局唯一的ID，特别是自增ID。
@@ -303,7 +303,7 @@
 
 你可以考虑提供一个可选的方式来为客户端输出更长的响应，比如通过请求参数（如?pretty=true）或者通过 Accept头（如Accept: application/vnd.heroku+json; version=3; indent=4;）。
 
-##五、文档及其他
+##四、文档及其他
 **提供机器可读的JSON格式**
 
 提供机器可读的schema来描述你的API，可以用prmd来管理你的schema，用过prmd verify来确保它通过验证。
