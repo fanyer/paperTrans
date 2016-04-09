@@ -303,6 +303,7 @@
 
 你可以考虑提供一个可选的方式来为客户端输出更长的响应，比如通过请求参数（如?pretty=true）或者通过 Accept头（如Accept: application/vnd.heroku+json; version=3; indent=4;）。
 
+---
 ##四、文档及其他
 **提供机器可读的JSON格式**
 
